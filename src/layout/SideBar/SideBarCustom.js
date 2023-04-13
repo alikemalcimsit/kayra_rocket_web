@@ -9,7 +9,7 @@ const [active,setActive] = useState(1)
   return (
   
       
- <div  className='md:invisible absolute drop-shadow-lg '>
+ <div  className='md:invisible fixed  z-20 '>
  <main>
         <button className=' m-9 relative' onClick={() =>{ collapseSidebar() ; setActive(0)} }><AiOutlineMenu size="34px"></AiOutlineMenu></button>
       </main>
